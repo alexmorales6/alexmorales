@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.contain{
+  width:110vw;
+  margin: -50px -10px;
+}
+
+.block1, .block2 {
+  width:100px;
+  height: 100px
+  float:left;
+  border-radius:50%;
+  border: 10px solid black;
+}
+
+.block1 {
+  border-color: black;
+  margin:50px;
+  float: left;
+  border-radius: 50%
+  border: 10px solid black;
+  margin:50px;
+}
