@@ -1,7 +1,7 @@
-ody{
+body{
   margin: 0;
   overflow-x: hidden;
-  background-color: lightsalmon;
+  background-color: red;
 }
 #container{
   width: 100%;
@@ -38,7 +38,7 @@ height: 100px;
 .triangle3 {
   height: 0px;
   width: 0px;
-  border-left: 100px solid peachpuff;
+  border-left: 100px solid purple;
   border-right: 100px solid transparent;
   border-bottom: 100px solid transparent;
   border-top: 100px solid transparent;
