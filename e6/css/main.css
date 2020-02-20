@@ -1,26 +1,45 @@
-body{
+ody{
   margin: 0;
   overflow-x: hidden;
+  background-color: lightsalmon;
 }
-
-.contain{
-  width:110vw;
-  margin: -50px -10px;
+#container{
+  width: 100%;
+  margin-left: 0%;
+  margin-top: 0px;
 }
-
-.block1, .block2 {
-  width:100px;
-  height: 100px
-  float:left;
-  border-radius:50%;
-  border: 10px solid black;
-}
-
-.block1 {
-  border-color: black;
-  margin:50px;
+.triangle1,.triangle2,.tile1,.triangle3 {
+  margin: 0px;
   float: left;
-  border-radius: 50%
-  border: 10px solid black;
-  margin:50px;
 }
+.triangle1 {
+  height: 0px;
+  width: 0px;
+  border-left: 100px solid palevioletred;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  border-top: 100px solid transparent;
+}
+.triangle2 {
+  height: 0px;
+  width: 0px;
+  border-left: 100px solid tomato;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  border-top: 100px solid transparent;
+  transform: rotate(180deg);
+}
+.tile1 {
+width: 100px;
+height: 100px;
+  border-radius: 100%;
+  background-color: thistle;
+}
+.triangle3 {
+  height: 0px;
+  width: 0px;
+  border-left: 100px solid peachpuff;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  border-top: 100px solid transparent;
+  transform: rotate(90deg);

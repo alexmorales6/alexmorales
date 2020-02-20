@@ -1,1 +1,37 @@
+.contain{
+  width: 800px;
+  margin: 100px auto;
 
+}
+
+body{
+  background-color: ROSYBROWN;
+  color: white;
+  font-family: futura;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom:250px;
+  margin-left: 250px;
+  margin-right:250px;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+
+a{
+  letter-spacing: 2px;
+  font-size: 50px;
+  text-transform: lowercase;
+  color:white;
+  margin-top: 50px;
+  margin-bottom:250px;
+  /* margin-left: 250px; */
+  /* margin-right:250px; */
+  text-decoration: none;
+}
