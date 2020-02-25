@@ -7,7 +7,7 @@
 body{
   background-color: ROSYBROWN;
   color: white;
-  font-family: futura;
+  font-family: oswald, sans-serif;
   font-size: 50px;
   margin-top: 50px;
   margin-bottom:250px;
@@ -28,7 +28,8 @@ a{
   letter-spacing: 2px;
   font-size: 50px;
   text-transform: lowercase;
-  color:white;
+  color:#89BC91;
+  transition: color 3s ease;
   margin-top: 50px;
   margin-bottom:250px;
   /* margin-left: 250px; */
