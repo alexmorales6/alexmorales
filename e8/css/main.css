@@ -1,0 +1,73 @@
+body{
+  margin:0;
+  background-color: tan;
+}
+
+.board {
+  width: 800px;
+  margin:100px auto;
+
+}
+
+.red, .white {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.red{
+  background-color: red;
+}
+
+.white{
+  background-color: white;
+}
+
+/* the end */
+
+#threecol{
+  width: 900px;
+  margin:100px auto;
+}
+
+.header, .subhead, .column, .footer{
+  background-color: white;
+  float: left;
+}
+
+.header{
+  width: 900px;
+  height: 150px;
+  background-color: black;
+  float: left;
+}
+
+.subhead{
+  width: 900px;
+  height:50px;
+  margin:25px 0;
+  background-color: blue;
+  float: left;
+}
+
+.column{
+  width: 283.33px;
+  height: 600px;
+  margin:0 8px;
+  background-color: red;
+  float: left;
+}
+
+.footer{
+  width: 900px;
+  height: 75px;
+  margin: 25px 0;
+  background-color: purple;
+  float; left;
+}
+
+.margin25{
+  margin: 0, 25px;
+}
+
+/* the end */ 
