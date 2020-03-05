@@ -28,3 +28,150 @@ a{
 a.hover{
   color:purple;
 }
+
+/* next page  */
+body{
+  background-color: violet;
+}
+.blog-container{
+  width: 900px;
+  margin: 100px auto;
+}
+
+.header{
+  width:900px;
+  height: 200px;
+  background-color: white;
+  float:left;
+  margin: 100px 25px 25px 0px;
+  /* top,right,bottom,left */
+}
+
+
+.post{
+  width:700px;
+  height: 400px;
+  background-color: white;
+  float:left;
+  margin: 100px 25px 25px 0px;
+}
+
+
+.image{
+  width:175px;
+  height: 200px;
+  background-color: white;
+  float:left;
+  margin: 100px 0px 0px;
+}
+
+.post-footer{
+  width:700px;
+  height: 50px;
+  background-color: white;
+  float:left;
+}
+
+/* css for tennis court */
+
+body{
+  background-color: magenta
+}
+
+*{
+  box-sizing:border-box;
+}
+
+.court{
+  width: 900px;
+  margin:100px auto;
+}
+
+.side{
+  width: 150px;
+  height: 700px;
+  background-color: orange;
+  float:left;
+  border:5px solid white;
+}
+
+.back{
+  width: 600px;
+  height: 200px;
+  background-color: orange;
+  float:left;
+  border:5px solid white;
+}
+
+.service{
+  width: 300px;
+  height: 500px;
+  background-color: orange;
+  float:left;
+  border:5px solid white;
+}
+
+.single{
+  float:left;
+  width: 600px;
+}
+/* personal attempt */
+body{
+  background-color: magenta
+}
+
+*{
+  box-sizing:border-box;
+}
+
+
+.maingrid{
+  width:800px;
+  margin: 100px auto;
+}
+
+
+.wall{
+  width:600px;
+  float:left;
+}
+
+.wall2{
+  width:100px;
+  float:left;
+}
+
+
+
+
+.window{
+  width: 100px;
+  height:200px;
+  background-color: orange;
+  float:left;
+  border:5px solid white;
+}
+
+.den{
+  width: 200px;
+  height:600px;
+  background-color: orange;
+  float:left;
+  border:5px solid white;
+}
+
+.tallwindow{
+  width:100px;
+  height:400px;
+  background-color: orange;
+  float:left;
+  border:5px solid white;
+}
+
+.widewindow{
+  width:200px;
+  height:400px;
+  background-color: orange;
+  float:left;
+  border:5px solid white;
+}
